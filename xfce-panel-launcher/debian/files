@@ -1,0 +1,3 @@
+xfce-proto-launcher-dbgsym_0.8.2_amd64.deb debug optional automatic=yes
+xfce-proto-launcher_0.8.2_amd64.deb xfce optional
+xfce4-panel-launcher_0.8.2_amd64.buildinfo xfce optional

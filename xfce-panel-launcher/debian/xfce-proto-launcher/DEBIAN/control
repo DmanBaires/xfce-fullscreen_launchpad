@@ -1,0 +1,28 @@
+Package: xfce-proto-launcher
+Source: xfce4-panel-launcher
+Version: 0.8.2
+Architecture: amd64
+Maintainer: Kamil 'Novik' Nowicki <novik@axisos.org>
+Installed-Size: 130
+Depends: libc6 (>= 2.14), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.36.0), libgtk-3-0t64 (>= 3.21.5), libxfce4panel-2.0-4 (>= 4.11.0), libxfconf-0-3 (>= 4.6.0), xfce4-panel (>= 4.16.0)
+Conflicts: xfce4-panel-launcher
+Replaces: xfce4-panel-launcher
+Section: xfce
+Priority: optional
+Homepage: https://github.com/Axis0S/xfce-panel-launcher
+Description: Full-screen application launcher plugin for XFCE Panel
+ A full-screen application launcher plugin for XFCE Panel, similar to
+ macOS Launchpad. Features include:
+ .
+  - Full-screen overlay with semi-transparent background
+  - Grid layout showing all installed applications
+   - Category sidebar with icons
+  - Search functionality to filter applications
+   - Mouse-wheel page navigation and click-outside dismissal
+  - Smooth hover effects on application icons
+  - Hide applications feature
+  - Dynamic application detection
+  - Customizable panel icon
+  - Support for Snap and Flatpak applications
+  - Automatic refresh when apps are installed/uninstalled
+  - ESC key to close launcher
